@@ -1,0 +1,8 @@
+{
+  "name": "urlencode",
+  "version": "0.0.1",
+  "description": "encode URL data",
+  "install": "install -b urlencode.sh ${PREFIX:-/usr/local}/bin/urlencode",
+  "scripts": [ "urlencode.sh" ]
+}
+
