@@ -3,7 +3,7 @@ BINDIR ?= $(PREFIX)/bin
 
 install:
 	$(info Installing the library to $(BINDIR))
-	@install -Dm755 ./lib/urlencode.sh  $(BINDIR)/urlencode
+	@install -Dm755 ./urlencode.sh  $(BINDIR)/urlencode
 
 uninstall:
 	$(info Removing library from $(BINDIR))
